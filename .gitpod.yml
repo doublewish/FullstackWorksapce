@@ -1,6 +1,7 @@
 tasks:
   - init: |
-      echo "Initializing..."
+      cd server
+      npm install
     command: |
       cd server
       npm run heroku-setup
