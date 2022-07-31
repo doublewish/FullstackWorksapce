@@ -10,14 +10,17 @@
   "scripts": {
     "start": "node index.js",
     "heroku-install": "curl https://cli-assets.heroku.com/install.sh | sh",
-    "heroku-login": "heroku login -i",
+    "heroku-login": "heroku login -u doublewish@spickatron.com -p 1_wHYPXgpE",
     "heroku-setgit-origin": "git remote add heroku https://git.heroku.com/enigmatic-peak-93921.git",
-    "heroku-push": "git push heroku main"
+    "heroku-push": "git push heroku main",
+    "heroku-setup": "npm run heroku-install && npm run heroku-login"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "heroku": "^7.60.2"
+    "heroku": "^7.60.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
