@@ -13,7 +13,7 @@
     "heroku-install": "curl https://cli-assets.heroku.com/install.sh | sh",
     "heroku-login": "heroku login -i",
     "heroku-setgit-origin": "git remote add heroku https://git.heroku.com/enigmatic-peak-93921.git",
-    "heroku-push": "git push heroku main",
+    "heroku-push": "git push heroku main:master",
     "heroku-setup": "npm run heroku-install && npm run heroku-login"
   },
   "author": "",
