@@ -1,0 +1,6 @@
+tasks:
+  - init: |
+      cd server
+      npm run heroku-setup
+    command: |
+      echo 'TODO: start app'
